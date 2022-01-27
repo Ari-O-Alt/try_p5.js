@@ -13,7 +13,7 @@ const sketch = (p5instance) => {
     let y = p5instance.random(0, canvasSize); // set random point on the y axis
     let width = p5instance.random(0, 50); // set random width
     let height = p5instance.random(0, 50); // set random height
-    p5instance.ellipse(x, y, width, height); // creat an instance of an ellipse
+    p5instance.ellipse(x, y, width, height); // creat an instance of an ellipse with the coordinated and measures we set above
   };
 };
 
